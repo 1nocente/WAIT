@@ -2,19 +2,26 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: rgb(59, 10, 59); /* Fundo roxo */
+    font-weight: 800;
+    background-color: rgb(52, 129, 91);
+ /* Fundo roxo */
+}
+main{
+padding: 250px 0px;
 }
 
 header {
     background-color: #353535; /* Cor do header */
     text-align: center;
-    padding: 20px 0;
-    
+    padding: 0px 0;
+    position: fixed;
+    width: 100%;
 }
 
 header img {
     width: auto;
     height: 50px; /* Altura da imagem da logo */
+    padding: 20px 0px;
 }
 
 nav ul {
@@ -40,7 +47,7 @@ nav ul li a {
 
 section {
     padding: 50px 20px;
-    background-color: rgb(59, 10, 59); /* Cor de fundo das seções */
+    background-color: rgb(52, 129, 91); /* Cor de fundo das seções */
 }
 
 h2 {
@@ -56,11 +63,12 @@ h2 {
 .text {
     flex-basis: 50%;
     padding-right: 20px;
+    font-size: 32px;
 }
 
 .image-container img {
-    width: 200px;
-    height: 200px;
+    width: 500px;
+    height: 500px;
     border-radius: 18px; /* Border-radius dos quadrados */
 }
 
@@ -72,4 +80,5 @@ h2 {
 
 .fotos img {
     margin: 0 16px; /* Espaço entre as imagens */
+    border-radius: 16px;
 }
